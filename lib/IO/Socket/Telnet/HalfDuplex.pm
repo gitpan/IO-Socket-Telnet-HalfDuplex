@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package IO::Socket::Telnet::HalfDuplex;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base 'IO::Socket::Telnet';
 
@@ -11,7 +11,7 @@ IO::Socket::Telnet::HalfDuplex - more reliable telnet communication
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -155,6 +155,10 @@ L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=IO-Socket-Telnet-HalfDuplex>.
 L<IO::Socket::Telnet>, L<IO::Socket::INET>, L<IO::Socket>, L<IO::Handle>
 
 L<http://www.ietf.org/rfc/rfc854.txt>
+
+=head1 CREDITS
+
+This algorithm (and most of the implementation) is due to Shawn Moore (L<http://search.cpan.org/~sartak/>) for projects such as L<TAEB> and L<http://interhack.us>.
 
 =head1 SUPPORT
 

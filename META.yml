@@ -10,4 +10,4 @@ meta-spec:
 name: IO-Socket-Telnet-HalfDuplex
 requires:
   IO::Socket::Telnet: 0
-version: 0.01
+version: 0.02
